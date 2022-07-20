@@ -8,5 +8,6 @@ void Palindrome(int a)
         Console.WriteLine("The number is not a palindrome");
 }
 
+Console.Write("Write a number: ");
 int p = int.Parse(Console.ReadLine());
 Palindrome(p);
