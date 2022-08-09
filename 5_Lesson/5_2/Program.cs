@@ -25,7 +25,7 @@ int[] MassNums(int size)
 }
 
 void IfInNum(int[] arr, int num)
-{   
+{
     string text = "No";
     for (int i = 0; i < arr.Length; i++)
     {
@@ -35,7 +35,7 @@ void IfInNum(int[] arr, int num)
             break;
         }
     }
-    Console.WriteLine($"The num value {num} -> {text}");    
+    Console.WriteLine($"The num value {num} -> {text}");
 }
 
 
