@@ -22,7 +22,7 @@ void Positive(int[] arr)
     Console.WriteLine($"You entered {count} number(s) greater than zero");
 }
 
-Console.WriteLine("Enter a number of elements: ");
+Console.WriteLine("How many numbers do you want to enter?");
 int a = int.Parse(Console.ReadLine());
 Console.WriteLine("Enter numbers one by one");
 int[] arr1 = FillArray(a);
