@@ -30,17 +30,17 @@ int[,] FillArray(int row, int column, int from, int to)
     return arr;
 }
 
-string FirstExposition (int [,] arr, int a)
+string FirstExposition(int[,] arr, int a)
 {
-for (int i = 0; i < arr.GetLength(0); i++)
-{
-for (int j = 0; j < arr.GetLength(1); j++)
-{
-if (arr[i, j] == a)
-return $"({i + 1}, {j + 1})";
-}
-}
-return "No";
+    for (int i = 0; i < arr.GetLength(0); i++)
+    {
+        for (int j = 0; j < arr.GetLength(1); j++)
+        {
+            if (arr[i, j] == a)
+                return $"({i + 1}, {j + 1})";
+        }
+    }
+    return "No";
 }
 
 Console.Write("Enter the number of rows: ");
