@@ -35,7 +35,6 @@ int[,] MatrixMultiplication(int[,] arr1, int[,] arr2)
 {
     int row1 = arr1.GetLength(0);
     int column1 = arr1.GetLength(1);
-    int row2 = arr2.GetLength(0);
     int column2 = arr2.GetLength(1);
     int[,] matrixProduct = new int[row1, column2];
 
