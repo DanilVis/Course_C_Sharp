@@ -5,7 +5,7 @@
 
 int SumNums(int min, int max)
 {
-    if(max<min) return 0;
+    if (max < min) return 0;
     return SumNums(min, max - 1) + max;
 }
 
